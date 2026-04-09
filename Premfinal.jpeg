@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="home.css">
+
+     </head>
+      <body>
+    <article class="home"> 
+        <section class="introduction">
+            <div id="intro">
+              <greeting>WELCOME</greeting>
+              <introtext>We are Dynamite FC</introtext>
+              <description>A club that is always striving for the best and encourages our players to shoot for the stars!</description>
+              <circle><a href="../Portfolio/portfolio.html"><i class="fa-solid fa-play"></i></a></circle>
+            </div>
+        </section>
+        <section class="pictureArea"><section class="picture"><img src="images/ALL_Soccer_110122.jpg" alt="Picture Error"></section></section>
+        <section class="main">
+            <maintext>
+                At Dynamite FC, we believe in the power of passion, teamwork, and explosive talent. We're more than just a football club; we're a community where players grow, thrive, and ignite their full potential. Whether you're an aspiring star or a seasoned player looking for a new challenge, Dynamite FC is the perfect place to elevate your game. Join us on the pitch, and let’s create something extraordinary together. Are you ready to be a part of the explosion? Apply now and bring your dynamite spirit to the field!
+            </maintext>
+            <a href="../About/about.html"><button> READ MORE</button></a>
+        </section>
+        <section class="navbar">
+            <nav id="nav1">
+                <ol>
+                    <li><a href="home.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="../Portfolio/portfolio.html"><i class="fa-solid fa-book-bookmark"></i> Portfolio</a></li>
+                    <li><a href="../About/about.html"><i class="fa-solid fa-question"></i> About</a></li>
+                    <li><a href="../Contact/contact.html"><i class="fa-solid fa-square-phone-flip"></i> Contact</a></li> 
+                </ol>
+            </nav>
+        </section>
+        <section class="decorsection"></section>
+    </article>
+</body>
+</html>

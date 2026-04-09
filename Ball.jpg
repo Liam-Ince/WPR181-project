@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../Home/home.html">HOME</a></li>
+          <li><a href="../Portfolio/portfolio.html">PORTFOLIO</a></li>
+          <li><a href="../Contact/contact.html">CONTACT</a></li>
+          <li><a href="../About/about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Welcome to <span>DYNAMITE FC</span></h1>
+    <p id="top">
+      Dynamite FC is an emerging football club based in the vibrant city of
+      Springfield, known for its passionate fan base and commitment to community
+      engagement. Established in 2015, the club has quickly made a name for
+      itself in the local football scene, boasting a rich history of competitive
+      spirit and sportsmanship. The club’s colors, bright orange and navy blue,
+      symbolize energy and determination, reflecting the team’s dynamic playing
+      style. Dynamite FC competes in the Springfield Football League and has
+      consistently shown impressive performances, making it a formidable
+      opponent. The team is known for its dedication to developing young talent,
+      with a robust youth academy that nurtures aspiring players from the
+      grassroots level. Under the leadership of head coach Mark Thompson, who
+      has over 15 years of coaching experience, Dynamite FC emphasizes a
+      disciplined approach to the game. The team’s tactical philosophy focuses
+      on quick passing, high pressing, and fluid attacking play, which has
+      earned them a loyal following. Key players, such as star striker Leo
+      Martinez and skillful midfielder Sarah Johnson, have become fan favorites,
+      often leading the charge in crucial matches. Beyond the pitch, Dynamite FC
+      is deeply integrated into the Springfield community, organizing various
+      outreach programs and charity events. The club hosts youth clinics,
+      promotes healthy lifestyles, and supports local schools, fostering a sense
+      of unity and pride among residents. As Dynamite FC continues to grow, its
+      ambition remains clear: to achieve success on and off the field while
+      inspiring the next generation of footballers. With a strong foundation and
+      an unwavering commitment to excellence, the future looks bright for this
+      exciting club.
+    </p>
+    <hr />
+    <section id="container">
+      <article id="one">
+        <section class="mel">
+          <img src="images/kick.png" alt="kicking  image" class="kick" />
+        </section>
+        <p class="para">
+          Dynamite FC is a community-focused soccer club dedicated to fostering
+          talent and promoting the love of the game at all levels. Established
+          in 2010, we pride ourselves on providing a supportive environment for
+          players of all ages. Our coaching staff is comprised of experienced
+          professionals who are committed to developing both the skills and
+          character of our players. We believe that soccer is not just about
+          winning, but about teamwork, discipline, and building lifelong
+          friendships.
+        </p>
+        <button>READ MORE</button>
+      </article>
+
+      <article id="two">
+        <section class="mel">
+          <img src="images/scout.png" alt="Scouting  image" class="kick" />
+        </section>
+        <p class="para">
+          Scouting for talent is a pivotal part of our mission at Dynamite FC.
+          We actively seek out young, passionate players who show potential and
+          a love for the sport. Our scouting team attends local tournaments,
+          school games, and community events to identify individuals who can
+          contribute to our club’s growth. We aim to provide opportunities for
+          players to showcase their abilities through our training camps and
+          open tryouts, ensuring that all aspiring athletes have a chance to
+          join our dynamic team.
+        </p>
+        <button>READ MORE</button>
+      </article>
+
+      <article id="three">
+        <section class="mel">
+          <img src="images/hardship.png" alt="mobile image" class="kick" />
+        </section>
+        <p class="para">
+          Like many clubs, Dynamite FC has faced its share of hardships.
+          Financial challenges and the impact of external factors such as the
+          pandemic have tested our resilience. Despite these obstacles, we
+          remain committed to our players and our community. We have implemented
+          various fundraising initiatives and partnerships to sustain our
+          programs and support our athletes. Looking ahead, we envision a future
+          where Dynamite FC not only thrives on the field but also serves as a
+          beacon of hope and inspiration for young athletes, encouraging them to
+          pursue their dreams while upholding the values of teamwork, respect,
+          and perseverance.
+        </p>
+        <button>READ MORE</button>
+      </article>
+    </section>
+
+    <section id="pictures">
+      <fieldset>
+        <legend>Dynamite FC Contact Information</legend>
+        <section id="container2">
+          <div id="ball">
+            <img src="images/Ball.jpg" alt="soccer ball" class="team" />
+            <h4>Football</h4>
+          </div>
+
+          <div id="Contacts">
+            <h4>
+              Address: 123 Soccer Lane Sportstown, ST 12345
+              <div>Phone: (555) 123-4567</div>
+              <div>Email: info@dynamitefc.com</div>
+              <div>Website: www.dynamitefc.com</div>
+            </h4>
+          </div>
+
+          <div id="Social">
+            <h4>
+              Website: www.dynamitefc.com
+              <div>Social Media:</div>
+              <div>Facebook: /DynamiteFC</div>
+              <div>Twitter: @DynamiteFC</div>
+              <div>Instagram: @DynamiteFC</div>
+              <div></div>
+              <div>Office Hours:</div>
+              <div>Monday - Friday: 9 AM - 5 PM</div>
+              <div>Saturday: 10 AM - 2 PM</div>
+              <div>Sunday: Closed</div>
+            </h4>
+          </div>
+
+          <div id="coach">
+            <img src="images/coach.jpg" alt="Coach" class="team" />
+            <h4>Coach</h4>
+          </div>
+        </section>
+      </fieldset>
+    </section>
+  </body>
+  <footer>Compiled by Christiaan Geyer</footer>
+</html>

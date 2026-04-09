@@ -1,0 +1,263 @@
+
+        *{
+          padding: 0;
+          margin: 0;
+          border-collapse: collapse;
+          box-sizing: border-box;
+          
+        }
+
+
+        .home{
+            display: grid;
+            background-color: rgb(1, 1, 1);
+            height: 100vh;
+            grid-template-columns: 60px repeat(8,1fr);
+            grid-template-rows:  50px repeat(4,minmax(169.4px,auto));
+            padding: 10px;
+            
+            
+        }
+
+        .introduction{
+           
+            
+           
+            grid-column: 2/5;
+            grid-row: 2/6;
+            background-image: url(images/abstract-blue-patterns-design.jpg.crdownload);
+            background-size: 250%;
+            background-repeat: no-repeat;
+            
+        }
+
+        #intro{
+            color: whitesmoke;
+            height: 600px;
+            width: 680px;
+            position: relative;
+            top:60px;
+           
+        }
+
+        greeting {
+            font-size: 30px;
+            position: relative;
+            left:30px;
+            
+        }
+
+        introtext {
+            font-size: 60px;
+            position: absolute;
+            top: 100px;
+            left:80px;
+            
+        }
+        description {
+            font-size: 20px;
+            position:absolute;
+            top: 230px;
+            left:120px;
+        }
+
+        circle {
+            
+            background-color: white;
+            position:absolute;
+            top: 300px;
+            left: 510px;
+            padding: 25px;
+            border-radius: 50%;
+        }
+
+        .fa-play {
+            color: rgb(0, 204, 255);
+            font-size: 35px;
+            position: relative;
+            left:2px;
+            
+        }
+
+        
+
+       
+
+        .pictureArea{
+            
+           
+            grid-column: 5/10;
+            grid-row: 2/5;
+            
+            background-image: url(images/R.jfif);
+            background-position-x: 100px;
+            background-size: 1000px;
+            
+        }
+
+        .picture img{
+            
+            height:450px;
+            width:600px;
+            margin-left: 180px;
+            margin-top: 20px;
+            border-radius: 20%;
+            
+            
+        }
+
+        
+
+        .main{
+            
+            background-color: rgb(75, 74, 74);
+            grid-column: 5/10;
+            grid-row: 5/6;
+           
+            
+        }
+        maintext {
+           color: rgb(253, 251, 251);
+           position:relative;
+           top: 15px;
+           left: 2px;
+
+        }
+
+        
+        button {
+            width: 100px;
+            height: 50px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 30%;
+            background-color: transparent;   
+            position:absolute;
+            top:680px;
+            left:1400px;
+        }
+
+
+        .navbar{
+           
+            grid-column: 1/10;
+            grid-row: 1;
+            background-color: rgb(62, 60, 60);
+           
+            
+           
+        }
+
+        .decorsection{
+            background-color: rgb(75, 74, 74);
+            grid-column: 1;
+            grid-row: 1/6;
+            
+            
+        }
+
+
+ 
+        nav ol{
+    list-style: none;
+}
+ 
+nav li{
+    display: inline;
+    margin:auto 120px;
+    
+    
+}
+ 
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1em 2em;
+    display: inline;
+    width: 125px;
+    position: relative;
+    top:15px;
+    
+   
+ 
+}
+
+nav a:hover{
+    background-color: rgb(50, 211, 226);
+ 
+}
+
+@media screen and (max-width: 320px) {
+    .home{
+            display: grid;
+            background-image: url(images/abstract-blue-patterns-design.jpg.crdownload);
+            width: 776px;
+            height: 1590px;
+            grid-template-columns: 755px;
+            grid-template-rows:  100px repeat(3,minmax(420px,auto)) 30px;
+            
+            
+            
+        }
+
+        .introduction{
+            background-image: none;
+            grid-column: 1;
+            grid-row: 2;
+            
+        }
+
+        
+        .pictureArea{
+            
+           
+            grid-column: 1;
+            grid-row: 3;
+            background-image: none;
+           
+            
+        }
+
+        .picture img{
+            
+            height:500px;
+            width:500px;
+            margin-left: 125px;
+            margin-top: 0px;
+            border-radius: 50%;
+            
+            
+        }
+       
+
+        .main{
+            
+            background-color:transparent;
+            grid-column: 1;
+            grid-row: 4;
+           
+            
+        }
+
+        .navbar{
+           
+           grid-column: 1;
+           grid-row: 1;
+           background-color: rgb(62, 60, 60);
+          
+           
+          
+       }
+
+       .decorsection{
+           background-color: rgb(75, 74, 74);
+           grid-column: 1;
+           grid-row: 5;
+           
+           
+       }
+
+    }
+
+    
+
